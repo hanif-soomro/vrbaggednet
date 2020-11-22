@@ -12,14 +12,14 @@ Data augmentation technique is applied with the help of Augmentor library, which
 The images of train-set are stored in the directories of their respective class i-e "Flood related topic" aand "No-flood related topic". 
 
 * dir_train/
-	* dir_flood/
-			*  01_flood.jpg
-			*  02_flood.jpg
-			*  03_flood.jpg
-	* dir_noflood/
-			*  01_noflood.jpg
-			*  02_noflood.jpg
-			*  03_noflood.jpg
+	* dir_flood/ </br>
+		*  01_flood.jpg </br>
+		*  02_flood.jpg </br>
+		*  03_flood.jpg </br>
+	* dir_noflood/ </br>
+		*  01_noflood.jpg </br>
+		*  02_noflood.jpg </br>
+		*  03_noflood.jpg </br>
 
 
 Stratified and equal-sized random samples are selected from each of the class for the training of model. 
